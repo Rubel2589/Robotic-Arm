@@ -181,21 +181,4 @@ void loop()
     servo_4.write(mov3);
 
   }
-
-
-
-  // else if (y >= 270 && y <= 360)
-
-  // {
-
-  //   int mov3 = map(y, 360, 270, 90, 0);
-
-  //   Serial.print("Movement in Right = ");
-
-  //   Serial.print(mov3);
-
-  //   Serial.println((char)176);
-
-  //   servo_4.write(mov3);
-  // }
 }
